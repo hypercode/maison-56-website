@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/*background-image:url(../img/new_body.jpg);*/
+	background-repeat:no-repeat;
+	
+	background-size:contain;
+	
+
+}
+
+#main_content {
+	height:680px;
+	width:100%;
+	
+	
+}
+
+
+#form {
+	padding:10px;
+	margin:auto;
+	height:400px;
+	width:600px;
+	font-size:13px;
+	margin-top:50px;
+	margin-bottom:100px;
+	
+	
+	
+}
+#form h3 {
+	text-align:center;
+	margin-bottom:40px;
+}
+#form button {
+	margin-top:40px;
+	margin-left:160px;
+	display:inline-block;
+}
+
+#contact_form {
+	display:inline-block;
+}
+
+
+

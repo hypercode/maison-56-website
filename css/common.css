@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	margin:0 !important;
+	padding:0 !important;
+	font-family: "Gill Sans Medium",serif;
+}
+#header {
+	height:230px;
+	margin: 0 auto;
+	color:#000;
+	
+	/*margin-bottom:10px;
+	box-shadow: 0px 0px 4px 0px rgba(119, 119, 119, 0.63);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(119, 119, 119, 0.63);
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(119, 119, 119, 0.63);*/
+	/*background-image:url(../img/body.png);
+	background-repeat:no-repeat;*/
+}
+#header img {
+	
+	
+}
+#logo {
+	margin:auto;
+	text-align:center;
+	height:150px;
+	width:200px;
+	
+}
+#logo img {
+	width:100%;
+	
+	
+}
+#footer {
+	float:left;
+	font-size:12px;
+	height:40px;
+	width:100%;
+	color:#A5A5A5;
+	border-top: 1px solid #DDD !important;
+	background: #eee;
+	margin-bottom:0px;
+	
+}
+
+.footer_nav {
+	display:inline-block;
+	position: relative;
+	margin: 0;
+    margin-top:3px;
+	text-align:center;
+}
+/* The main navigation link containers */
+.footer_nav >li {
+	display: block;
+	float: left; /* Displaying them on the same line */
+	margin: 0;
+	padding: 3px;
+}
+
+
+
+#copyright {
+	
+	display:inline-block;
+	width:55%;	
+	float:left;
+	
+	
+}
+#copyright p{
+	
+	float:right;
+}
+#icons {
+	padding: 5px;
+	float:right;
+	display:inline-block;
+	width:20%;
+	height:50px;
+	
+}
+
+#icons a {
+	opacity:0.6;
+	-o-transition:color .2s ease-out, background 2s ease-in;
+    -ms-transition:color .2s ease-out, background 2s ease-in;
+    -moz-transition:color .2s ease-out, background 2s ease-in;
+    -webkit-transition:color .2s ease-out, background 2s ease-in;
+    /* ...and now for the proper property */
+    transition:color .2s ease-out, background 2s ease-in;
+	
+}
+#icons a:hover {
+	opacity:1;
+	
+}
+
+
+.link {
+	text-decoration:none;
+	color:#0099FF;	
+}
+.submit_button {
+	background-color: #000;
+	border: none;
+	padding: 6px 17px 4px 17px;
+	color: #FFFFFF !important;
+	font-size:11px;
+	font-size:11px;
+}
+#element_to_pop_up { 
+    background-color:#fff;
+    border-radius:5px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    width:600px;
+    min-height: 380px;
+}
+#element_to_pop_up1 { 
+    background-color:#fff;
+    border-radius:5px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    width:700px;
+    min-height: 350px;
+}
+
+
+.b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+	color:#999;
+}
+.b-close:hover {
+	color:#000;
+	
+}
+#logout{
+	position:relative;
+	top:-60px;
+	right:-700px;}
+

@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#main_content_store{
+	
+	
+	padding-left:10px;
+	padding-right:10px;
+	width:65%;		/*65*/
+	margin:auto;
+	
+	
+}
+#main_content_edit {
+	padding-left:110px;
+	width:65%;
+	margin:auto;
+}
+
+
+#add_item_content {
+	display:none;
+	height:700px;
+	width:100%;
+	position:relative;
+	top:200px;
+	margin:auto;
+	border:1px solid #A5A5A5;
+	z-index:999;
+}
+#add_item {
+	padding:10px;
+	width:600px;
+	margin:auto;
+	margin-top:20px;
+	box-shadow: 0px 0px 3px 0px rgba(12, 1, 1, 0.64);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(12, 1, 1, 0.64);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(12, 1, 1, 0.64);
+
+}
+#show_products {
+	display:inline-block;
+	float:right;
+	
+}
+
+.shoes_box {
+	padding:0;
+	margin:5px;
+	width:19%;
+	height:300px;
+	display:inline-block;
+	
+}
+.bags_box {
+	padding:0;
+	margin:5px;
+	width:19%;
+	height:300px;
+	display:inline-block;
+	
+}
+.dresses_box {
+	
+	padding:0;
+	margin:15px;
+	width:22%;
+	height:460px;
+	display:inline-block;
+	font-family: "Playfair Display",Arial,Helvetica,Sans-serif;
+}
+.jackets_box {
+	
+	padding:0;
+	
+	margin:15px;
+	width:22%;
+	height:460px;
+	display:inline-block;
+	font-family: "Playfair Display",Arial,Helvetica,Sans-serif;
+}
+.topwear_box {
+	padding:0;
+	margin:5px;
+	width:17%;
+	height:340px;
+	display:inline-block;
+	box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+}
+.trowsers_box {
+	padding:0;
+	margin:5px;
+	width:17%;
+	height:340px;
+	display:inline-block;
+	box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+}
+.skirts_box {
+	padding:0;
+	margin:5px;
+	width:17%;
+	height:340px;
+	display:inline-block;
+	box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+}
+.accessories_box {
+	padding:0;
+	margin:5px;
+	width:17%;
+	height:340px;
+	display:inline-block;
+	box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+}
+.swimmwear_box {
+	padding:0;
+	margin:5px;
+	width:17%;
+	height:340px;
+	display:inline-block;
+	box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(12, 1, 1, 0.31);
+}
+/**********************************************************************************************************/
+
+.item_img {
+	
+	padding:0;
+	height:80%;
+	width:100%;
+	overflow:hidden;
+	font-family: "Playfair Display",Arial,Helvetica,Sans-serif;
+}
+
+.item_img  img {
+	width:100%;
+}
+.add_item {
+	padding:0;
+	margin:5px;
+	width:19%;
+	height:300px;
+	
+	
+}
+
+
+.add_item img {
+	
+	height:100%;
+	width:100%;
+}
+.item_img img {
+	width:100%;
+	
+}
+
+.item_info{
+	text-align:center;
+	font-size:12px;
+	width:100%;
+	height:20%;
+	border:1px solid red;
+	font-family: "Playfair Display",Arial,Helvetica,Sans-serif;
+}
+.item_info p {
+	margin:0;
+	font-family: "Playfair Display",Arial,Helvetica,Sans-serif;
+	
+}
+
+.product_info {
+	width:100%;
+	height:60px;
+	padding:8px;
+	font-family: "Playfair Display",Arial,Helvetica,Sans-serif;
+	
+}
+.product_info1 {
+	width:width:19%;
+	padding:3px;
+	margin-bottom:5px;
+	margin-left:30px;
+	margin-right:30px;
+	
+	
+}
+/***********************************************************ADMIN*************************************************************************************/
+.shoes_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.shoes_edit img {
+	height:300px;
+}
+.jackets_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.jackets_edit img {
+	height:300px;
+	
+}
+.dresses_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.dresses_edit img {
+	height:300px;
+}
+.trowsers_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.trowsers_edit img {
+	height:300px;
+}
+.skirts_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.skirts_edit img {
+	height:300px;
+}
+.bags_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.bags_edit img {
+	height:300px;
+}
+.accessories_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.accessories_edit img {
+	height:300px;
+}
+.swimmwear_edit {
+	padding:0;
+	margin:5px;
+	
+	width:19%;
+	border:1px solid black;
+	display:inline-block;
+		
+}
+
+.swimmwear_edit img {
+	height:300px;
+}
+/*******************************************************************************************************************/
+
+#summ{
+	height:13px;
+	overflow:hidden;
+	
+}
+
+.product_info h5{
+	margin-top:0;
+	padding:0;
+	margin-bottom:0;
+	line-height: 1em;
+	font-weight: lighter;
+	font-size: .8em;
+	color:#A5A5A5;
+	
+}
+.product_info h4{
+	margin-top:0;
+	padding:0;
+	margin-bottom:0;
+	line-height: 1em;
+	font-weight: lighter;
+
+	
+}
+.product_info p{
+	
+	margin-top:5px;
+	font-size: 14px;
+	line-height: 0.6em;
+	
+}
+
+/************************************PAGINATION*************************************************/
+.loading-indication{
+	background:#FFFFFF;
+	padding:10px;
+	position: absolute;
+}
+.paginate {
+	
+	padding: 0px;
+	margin-top: 5px;
+	height: 30px;
+	display: block;
+
+	text-align: center;
+}
+.paginate li {
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	margin-right: 1px;
+	font-size:11px;
+	width: 20px;
+	text-align: center;
+	background:#000;
+	line-height: 20px;
+}
+.paginate .active {
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	margin-right: 1px;
+	width: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #666666;
+}
+.paginate li a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.page_result{
+	
+	width:100%;	
+}
+.page_result li{
+	
+}
+.page_result .page_name {
+	
+}
